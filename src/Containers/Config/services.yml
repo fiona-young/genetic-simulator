@@ -1,0 +1,13 @@
+imports:
+    - { resource: "geneticSim.yml" }
+
+services:
+    Guzzle\Http\Client:
+        class: Guzzle\Http\Client
+
+    Symfony\Component\HttpFoundation\Request:
+        class: Symfony\Component\HttpFoundation\Request
+        factory_class: Symfony\Component\HttpFoundation\Request
+        factory_method: createFromGlobals
+        scope: container
+

@@ -1,0 +1,33 @@
+{
+  "name": "matters/genetic-simulator",
+  "description": "Genetic Simulater for Ratties",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "proprietary",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:logicnow/oauth2-php-client.git"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Fiona Matters",
+      "email": "fiona@matters.com"
+    }
+  ],
+  "require": {
+    "symfony/dependency-injection": "v2.5.4",
+    "solarwinds/oauth2-php-client":"dev-develop"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.7.*",
+    "phpunit/phpunit-mock-objects": "2.3.1"
+  },
+  "autoload": {
+    "psr-4": {"Matters\\GeneticSim\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Matters\\GeneticSim\\Test\\": "test/"}
+  }
+}

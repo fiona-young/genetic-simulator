@@ -1,0 +1,3 @@
+services:
+      Solarwinds\Oauth2\Utilities\HelperFunctionWrapper:
+        class: Solarwinds\Oauth2\Utilities\HelperFunctionWrapper

@@ -2,7 +2,7 @@
   "db":{
     "engine":"mysql",
     "host":"localhost",
-    "database":"geneticSim",
+    "database":"genetic_sim",
     "username":"root",
     "password":""
   }
